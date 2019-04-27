@@ -1,24 +1,3 @@
-h1 {
-    position: relative;
-    padding: 0.25em 1em;
-    border-top: solid 2px black;
-    border-bottom: solid 2px black;
-  }
-  h1:before, h1:after {
-    content: '';
-    position: absolute;
-    top: -7px;
-    width: 2px;
-    height: -webkit-calc(100% + 14px);
-    height: calc(100% + 14px);
-    background-color: black;
-  }
-  h1:before {
-    left: 7px;
-  }
-  h1:after {
-    right: 7px;
-  }
 
 body{
     text-align: left;
@@ -32,4 +11,21 @@ body{
 
 #introduction h3,#work h3,#achievement h3{
     text-decoration: underline;
+}
+
+.agenda{
+  text-align:center 
+}
+
+.agenda .text{
+  text-align: left;
+  display: inline-block
+}
+
+#head{
+  text-align: center
+}
+
+#icon{
+  text-align: center
 }
