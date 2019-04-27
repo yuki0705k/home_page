@@ -1,0 +1,31 @@
+
+body{
+    text-align: left;
+    background: lightgrey;
+    font-family: 'Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒラギノ角ゴシック',YuGothic,'Yu Gothic','メイリオ', Meiryo,'ＭＳ Ｐゴシック','MS PGothic';
+}
+
+#title {
+    color: black
+}
+
+#introduction h3,#work h3,#achievement h3{
+    text-decoration: underline;
+}
+
+.agenda{
+  text-align:center 
+}
+
+.agenda .text{
+  text-align: left;
+  display: inline-block
+}
+
+#head{
+  text-align: center
+}
+
+#icon{
+  text-align: center
+}
